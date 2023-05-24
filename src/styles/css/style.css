@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    line-height: 1.8;
+}
+
+@font-face {
+    font-family: opensans;
+    src: url(/src/styles/fonts/OpenSans.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(/src/styles/fonts/Poppins.ttf);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 45px;
+  }
+  
+.header__logo {
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+}
+  
+.header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+  
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.nav__btn {
+    text-decoration: none;
+    color: #111111;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: opensans;
+    font-weight: 600;
+    margin: 0 25px;
+    text-transform: uppercase;
+}
+  
+.nav__login {
+    text-decoration: none;
+    font-family: opensans;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 15px 0px;
+    padding: 5px;
+    background-color: #CAA892;
+    margin-left: 25px;
+}
+
+.decor {
+    flex-direction: row;
+    gap: 64px;
+    display: flex;
+    text-align: center;
+    padding: 200px;
+}
+
+.decor__content {
+    width: 100%;
+    max-width: 1800px;
+    margin-right: 100px;
+}
+
+.decor__content h2{
+    color: #212121;
+    font-family: opensans;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.24px;
+    width: fit-content;
+    text-transform: uppercase;
+}
+
+.decor__content h1 {
+    color: #212121;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 78px;
+    margin-top: 12px;
+    width: fit-content;
+}
+
+.decor__content h3 {
+    color: #646464;
+    font-family: opensans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+  
+.decor__contact {
+    font-family: opensans;
+    font-weight: 700;
+    line-height: 78px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: fit-content;
+    margin-top: 30px;
+}
+
+.decor__img img {
+    border-radius: 140px 0;
+    width: 700px;
+    height: 625px;
+    border: 4px solid #B0855B;
+}
+
+.nav__contact {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px 0px;
+    padding: 12px 26px;
+    background-color: #37806B;
+}
+
+.pointer img {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+  
